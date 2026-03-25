@@ -21,7 +21,7 @@ jobs:
           password: ${{ secrets.KINSTA_PASS }}
           protocol: ftps
           local-dir: ./wp-content/
-          server-dir: /www/YOUR-SITE-FOLDER/public/wp-content/
+          server-dir: /www/mytestsitem_146/public/wp-content/
           exclude: |
             **/.git*
             **/.git*/**
